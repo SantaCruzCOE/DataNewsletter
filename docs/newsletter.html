@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SCCOE Analytics Update</title>
+    <title>SCCOE Analytics Spring 2026 Update</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600;700&display=swap');
 
@@ -139,6 +139,9 @@
             padding-left: 20px;
             position: relative;
             margin-bottom: 10px;
+            line-height: 1.6;
+            font-size: 16px;
+            color: #4a4a4a;
         }
 
         .feature-list li:before {
@@ -204,9 +207,7 @@
             <!-- Content -->
             <tr>
                 <td class="content">
-                    <!--<h1 class="heading">Dear Santa Cruz COE family</h1>-->
-
-                    <!--Insert Tech+ Logo centered-->
+                    <!-- Insert Tech+ Logo centered -->
                     <a href="https://santacruzcoe.org/tech/" target="_blank">
                         <img src="https://lh3.googleusercontent.com/d/1sz4zCmiVekbxmPur0SvpJ8utbV80HPUk"
                             alt="Tech+ Logo" class="logo"
@@ -214,18 +215,219 @@
                     </a>
 
                     <p class="text">
-                        We are excited to share with you the latest developments from the data team. We have been
-                        working hard to create new visualizations, update existing visualizations, and develop systems
-                        and applications that make Santa Cruz County's educational data more accessible and useful for
-                        our staff, teachers and community. All for the benefit and success of our students.
+                        Dear Santa Cruz COE Community,
+                        <br>
+                        We are excited to share the following updates from the Data Analytics and Development
+                        team!
+                        <br>
+                        This spring we worked on many exciting projects, servicing multiple COE departments and school
+                        districts across the county. Below are some of the most notable projects worth highlighting.
                     </p>
 
                     <div class="divider"></div>
 
+                    <!-- Section 1: App Development -->
+                    <h2 class="subheading">🚀 App Development</h2>
+                    <h3>Google Forms add-on, new business archive reports app, and vibe coding support</h3>
+
+                    <h4><a href="https://workspace.google.com/marketplace/app/form_friend_installer/956350750180?flow_type=42"
+                            target="_blank"><strong>Form
+                                Friend Installer</strong></a></h4>
+                    <p class="text">
+                        We have developed a Google Forms add-on that enables you to automate sending calendar event
+                        invitations to your form respondents. You can send different calendar invitations based on
+                        the answers they provide in the form, or simply send one calendar invitation to all
+                        respondents. Install form friend and give it a try!
+                        <br>
+                    </p>
+                    <div align="center">
+                        <a href="https://workspace.google.com/marketplace/app/form_friend_installer/956350750180?flow_type=42"
+                            target="_blank">
+                            <img src="https://lh3.googleusercontent.com/d/1HxpoFDP06IhcCD9Gt3NmYicFy0zK3Y1o" alt="Form Friend Installer"
+                                style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 20px; border: 1px solid #e0e0e0;">
+                        </a>
+                    </div>
+
+                    <h4><a href="https://bar.santacruzcoe.org/" target="_blank"><strong>Business Archive
+                                Reports</strong></a></h4>
+                    <p>
+                        We have successfully migrated the legacy business archive reports application (CECC Archive)
+                        and its datasets to a modern stack running on Google Cloud Platform (GCP). The new cloud-native
+                        architecture delivers
+                        significant improvements in performance, security, and usability.
+                        This new application is live and currently open to a selected group of admin users in the COE
+                        business department. They will test it and
+                        open it as needed to the corresponding district stakeholders.
+                    </p>
+
+                    <h4><strong>Vibe Coding Support Group</strong></h4>
+                    <p>
+                        Artificial Intelligence (AI) tools that enable people to create applications with minimal or no
+                        coding experience
+                        (vibe coding) are
+                        evolving rapidly, and our brilliant staff at the COE is noticing.
+                        This Spring, we noticed a significant increase in the interest from
+                        staff across the COE and school districts to use these tools. This led to the creation of
+                        a new Vibe Coding Support group
+                        with the purpose of evaluating how we can best support our staff in the responsible
+                        use of these tools while minimizing the risks of
+                        exposing sensitive data and other vulnerabilities to our systems and networks. If you want
+                        to know more
+                        about this group and the guidelines that we are developing, feel free to reach out to anyone on
+                        the
+                        Tech+ team, or wait to hear more from us this summer/fall.
+                    </p>
+
+                    <div class="divider"></div>
+
+                    <!-- Section 2: Automations and Integrations -->
+                    <h2 class="subheading">⚙️ Automations and Integrations</h2>
+                    <h3>Business process automations for events scheduling and secure document sharing</h3>
+
+                    <h4><strong>COE Events Management Tool</strong></h4>
+                    <p class="text">
+                        We built a custom events management tool on top of a Google Sheet to support
+                        scheduling and tracking of events across the COE and school districts.
+                        Developed in collaboration with Marcia Russell and the Curriculum and Instruction team,
+                        the system includes:
+                    <ul class="feature-list">
+                        <li>A UI interface to create new events and write or update them into the Google Sheet.</li>
+                        <li>An AI assistant to propose the best days to schedule your event based on conflicts and
+                            preferences.</li>
+                        <li>The generation of a Google Calendar including all of the events from the Google Sheet.</li>
+                    </ul>
+                    </p>
+                    <h4><strong>Outdoor Science School Digital Migration</strong></h4>
+                    <p class="text">
+                        We helped the Santa Cruz COE Outdoor Science School in their transition to a digital
+                        registration
+                        system built in Google Forms, Sheets, and Google Apps Script.
+                        The system automates the creation of the required Registration and Health documents and places
+                        them
+                        into a Google Drive folder for the respective school site.
+                    </p>
+                    <h4><strong>File Share Audit Tool</strong></h4>
+                    <p class="text">
+                        Phishing attempts often leverage external document sharing to target staff,
+                        making detection difficult. Unfortunately, Google Workspace's admin
+                        panel does not provide a robust audit system for external document sharing, so
+                        we developed a custom document audit and alert system. Our new tool provides a
+                        monitoring and alerting system that scans external document sharing and sends notifications
+                        when an external file has been shared with a threshold of users within the organization.
+                        We are also exploring automated mitigation strategies to block suspicious file sharing.
+                    </p>
+
+                    <div class="divider"></div>
+
+                    <!-- Section 4: OneSource Customizations -->
+                    <h2 class="subheading">
+                        <span><img src="https://lh3.googleusercontent.com/d/1Ja0JNE3Iz5aMxJRHtuEMEZzlAP8TQlVk"
+                                alt="OneSource" style="width: 20px; height: 20px; vertical-align: middle;"></span>
+                        OneSource Customizations
+                    </h2>
+                    <h3>Tailoring student-level data to meet the needs of educators</h3>
+
+                    <p class="text">
+                        Our integrated student data system, <a
+                            href="https://santacruzcoe.org/tech/educational-data/one-source/"
+                            target="_blank"><strong>OneSource</strong></a>, continues to improve and expand.
+                        Over the
+                        Spring, we finished the onboarding and ETL process for our newest district, Santa Cruz City
+                        Schools. We also
+                        worked closely with San Lorenzo Valley teachers and other stakeholders to deliver several key
+                        dashboard
+                        enhancements and new features, including:
+                    </p>
+                    <ul class="feature-list">
+                        <li><strong>New Assessment Charts in the OneSource Overview Page</strong>: Added charts for a
+                            quick overview of results from any of the available benchmark assessments for the
+                            district/county, such as I-Ready, NWEA, STAR, etc.</li>
+
+                        <a href="https://santacruzcoe.org/tech/educational-data/one-source/" target="_blank">
+                            <img src="https://lh3.googleusercontent.com/d/12p33ViEIRIH6Le42twHqphBGmlWLcWIj" alt="OneSource Assessments Overview"
+                                style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 20px; border: 1px solid #e0e0e0;">
+                        </a>
+
+                        <li><strong>New Comprehensive Table of Student Data for Teachers</strong>: After meeting with
+                            teachers at San Lorenzo Valley Middle School to understand their needs, we created a new
+                            comprehensive table of student data for the teachers' overview page. We also rearranged the
+                            existing visualizations in the overview page as requested by teachers and added new charts
+                            that teachers thought would be useful to have easily accessible in the overview page.</li>
+
+                        <li><strong>Attendance & Program Conformance</strong>: Standardized absence codes
+                            and conformed program groups across districts for cleaner, countywide reporting.</li>
+
+                        <li><strong>Program Category Group Filter</strong>: Added a filter by program category
+                            group to allow users to filter by program category more easily.</li>
+                    </ul>
+
+                    <div style="text-align: center; margin-top: 20px;">
+                        <a href="https://santacruzcoe.org/tech/educational-data/one-source/" class="btn"
+                            target="_blank">Learn About OneSource</a>
+                    </div>
+
+
+                    <div class="divider"></div>
+
+                    <!-- Section 5: PowerSchool & Canvas Integrations -->
+                    <h2 class="subheading">🏫 Student Information Systems</h2>
+                    <h3>Student Information Systems (SIS) support for the COE's Career Advancement Charter (CAC)</h3>
+                    <p class="text">
+                        This Spring we continued supporting the great effort of the COE's CAC
+                        in improving and optimizing their PowerSchool SIS implementation and the processes
+                        and workflows around it.
+                        <br>
+                        The goal is to make it easier for CAC administrators and teachers to keep accurate records
+                        for
+                        attendance, grades and other student data required for compliance and reporting purposes.
+                        In addition, the new CAC implementation will keep student data more private and secure.
+                    </p>
+
+                    <div class="divider"></div>
+
+                    <!-- Section 7: Data Portal Visualizations -->
+                    <h2 class="subheading">📊 Data Portal Updates</h2>
+                    <h3>New LGBTQ+ analysis with data from the California Healthy Kids Survey (CHKS), and other updated
+                        visualizations</h3>
+                    <p class="text">
+                        The following visualizations in our <a href="https://dataportal.santacruzcoe.org/"
+                            target="_blank" style="color: #197A7B; text-decoration: none;">Data Portal</a> were updated
+                        during the spring:
+                    <ul class="feature-list">
+                        <li><a href="https://dataportal.santacruzcoe.org/?tags=Recently+Updated&viz=TOTALENROLL"
+                                target="_blank"><strong>Census
+                                    Day Enrollment Over Time</strong></a></li>
+                        <li><a href="https://dataportal.santacruzcoe.org/?tags=Recently+Updated&viz=ENROLLBYGROUP"
+                                target="_blank"><strong>Census
+                                    Day Enrollment by District, Race/Ethnicity, Grade Level and Cohort</strong></a></li>
+                        <li><a href="https://dataportal.santacruzcoe.org/?tags=Recently+Updated&viz=ELSTATUS"
+                                target="_blank"><strong>English
+                                    Language Acquisition Status (ELAS)</strong></a></li>
+                        <li><a href="https://dataportal.santacruzcoe.org/?tags=Mental+Health&viz=CHKSLGBTSS"
+                                target="_blank"><strong>New
+                                    LGBTQ+ analysis from CHKS data</strong></a></li>
+                        <img src="https://lh3.googleusercontent.com/d/1LxaI57VCrnWMAeUiHP44wAtyL5Dnpgy1" alt="LGBT Suicide Ideation"
+                            style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 20px; border: 1px solid #e0e0e0;">
+                        <img src="https://lh3.googleusercontent.com/d/1tzwprTw9v7Q3hj9dqOLFvN9lXiGx-ygc" alt="LGBT Depression"
+                            style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 20px; border: 1px solid #e0e0e0;">
+                    </ul>
+                    </p>
+
+                    <div style="text-align: center; margin-top: 20px;">
+                        <a href="https://dataportal.santacruzcoe.org/" class="btn" target="_blank">Visit the Data
+                            Portal</a>
+                    </div>
+
+                    <div class="divider"></div>
+
                     <!-- Team Section -->
-                    <h2 class="subheading">👋 Meet Our Team Members</h2>
-                    <p class="text"> We are lucky to
-                        have found such a competent and balanced mix of talent to join the COE family.</p>
+                    <h2 class="subheading">Greetings from the Data Analytics and Development Team!</h2>
+                    <p class="text" style="margin-bottom: 15px;">
+                        We are here to support you, please <a href="https://santacruzcoe.org/tech/educational-data/"
+                            target="_blank" style="color: #197A7B; text-decoration: none;">contact us</a> or send a data
+                        product request by clicking on the button below.
+                    </p>
+
                     <table width="100%">
                         <tr>
                             <td width="33%" class="team-member">
@@ -247,234 +449,22 @@
                                 <p class="team-role">Data Engineer</p>
                             </td>
                         </tr>
-                    </table>
-                    <p class="text">Together they make the dream team!</p>
-
-                    <div class="divider"></div>
-
-                    <!-- Data Portal Section -->
-                    <h2 class="subheading">🚀 The New Data Portal</h2>
-                    <h3>Access to countywide educational data at your fingertips</h3>
-
-                    <a href="https://dataportal.santacruzcoe.org/" target="_blank">
-                        <img src="https://lh3.googleusercontent.com/d/1HRb-G_BMteQd4X4NpkMucoMR8ByHFAhq"
-                            alt="New Data Portal Design"
-                            style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 20px; border: 1px solid #e0e0e0;">
-                    </a>
-
-                    <p class="text">
-                        Experience the newly redesigned frontend of our <a href="https://dataportal.santacruzcoe.org/"
-                            target="_blank" style="color: #197A7B; text-decoration: none;">Data Portal</a>. We've fully
-                        redeveloped the
-                        application to deliver:
-                    </p>
-                    <ul class="feature-list text">
-                        <li><strong>Improved Performance:</strong> Faster load times and smoother interactions.</li>
-                        <li><strong>Visualization Search Tool:</strong> Quickly find the data you are looking for.</li>
-                        <li><strong>Navigation Assistant:</strong> Ask the assistant to guide you in finding the data
-                            you need.</li>
-                    </ul>
-                    <!-- Center the button -->
-                    <div style="text-align: center;">
-                        <a href="https://dataportal.santacruzcoe.org/" class="btn" target="_blank">Visit the Data
-                            Portal</a>
-                    </div>
-
-                    <div class="divider"></div>
-
-                    <!-- Visualizations Section -->
-                    <h2 class="subheading">📊 Recently Updated Visualizations - <span
-                            style="color: red; font-style: italic;">Now Including 24-25 Data!</span></h2>
-                    <p class="text">
-                        During the last 3 months many datasets have been released with data from the 2024-2025
-                        school year. We have updated all of the corresponding visualizations. Look for the "Recently
-                        Updated" tag on our portal to see the latest visualizations:
-                    </p>
-
-                    <ul class="feature-list text">
-
-                        <li><a href="https://dataportal.santacruzcoe.org/ACADEMICS/ASSESSMENTS" target="_blank"
-                                style="color: #197A7B; text-decoration: none;"><strong>Santa Cruz CAASPP and CAST
-                                    Student Performance</strong></a></li>
-                        <li><a href="https://dataportal.santacruzcoe.org/ACADEMICS/GRADUATION" target="_blank"
-                                style="color: #197A7B; text-decoration: none;"><strong>Graduation Rates</strong></a>
-                        </li>
-                        <li><a href="https://dataportal.santacruzcoe.org/ENGAGEMENT/ENROLLMENT" target="_blank"
-                                style="color: #197A7B; text-decoration: none;"><strong>Enrollment Numbers</strong></a>
-                        </li>
-                        <li><a href="https://dataportal.santacruzcoe.org/ENGAGEMENT/ABSENT_DISC" target="_blank"
-                                style="color: #197A7B; text-decoration: none;"><strong>Absenteeism</strong></a></li>
-                        <li><a href="https://dataportal.santacruzcoe.org/ENGAGEMENT/ABSENT_DISC" target="_blank"
-                                style="color: #197A7B; text-decoration: none;"><strong>Expulsion Rates</strong></a></li>
-                        <li><a href="https://dataportal.santacruzcoe.org/ENGAGEMENT/ABSENT_DISC" target="_blank"
-                                style="color: #197A7B; text-decoration: none;"><strong>Suspension Rates</strong></a>
-                        </li>
-                        <li><a href="https://dataportal.santacruzcoe.org/ENGAGEMENT/ENG_LEARN" target="_blank"
-                                style="color: #197A7B; text-decoration: none;"><strong>Multilingual
-                                    Learners</strong></a></li>
-                        <li><a href="https://dataportal.santacruzcoe.org/ENGAGEMENT/COLLEGE_CAREER" target="_blank"
-                                style="color: #197A7B; text-decoration: none;"><strong>National Student
-                                    Clearinghouse</strong></a></li>
-                        <li><a href="https://dataportal.santacruzcoe.org/WELLNESS" target="_blank"
-                                style="color: #197A7B; text-decoration: none;"><strong>California Healthy Kids
-                                    Survey</strong></a></li>
-                    </ul>
-
-                    <div class="divider"></div>
-
-                    <!-- OneSource Section -->
-                    <h2 class="subheading"><span><img
-                                src="https://lh3.googleusercontent.com/d/1Ja0JNE3Iz5aMxJRHtuEMEZzlAP8TQlVk"
-                                alt="OneSource" style="width: 20px; height: 20px;"></span>OneSource</h2>
-                    <h3>Student level data to make informed decisions towards student success</h3>
-
-                    <p class="text">
-                        Our integrated data system, <strong>OneSource</strong>, continues to evolve with new
-                        customizations and data, with close to 30,000 students onboarded.
-                        <br><br>
-                        During the last quarter we have been working to add data from our latest onboarded district,
-                        Santa Cruz City Schools.
-                        <br><br>
-                        Additionally, we have been working with the Curriculum and Instruction team to add
-                        customizations such as new dashboards and filters, in order to better serve the needs of our
-                        users.
-                        <br><br>
-                        For example, we have added a new <a
-                            href="https://santacruzcoe.hoonuit.com/Dashboard/dashboard/8339" target="_blank"
-                            style="color: #197A7B; text-decoration: none;">Multilingual Learners dashboard</a> that
-                        shows the numbers
-                        of students in different classification statuses and how they perform in state assessments by
-                        classification status. Look at the two dashboards below for OneSource users and non-OneSource
-                        users.
-                    </p>
-                    <!-- TODO: Add screenshot of ML dashboard -->
-                    <a href="https://santacruzcoe.hoonuit.com/Dashboard/dashboard/8339" target="_blank">
-                        <img src="https://lh3.googleusercontent.com/d/1HAvi98ToKuKBAbDGB5VB0VfDPNLbrQQd"
-                            alt="OneSource Multilingual Learners Dashboard"
-                            style="width: 100%; max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 20px; border: 1px solid #e0e0e0;">
-                    </a>
-
-                    <ul class="feature-list text">
-                        <li><a href="https://santacruzcoe.hoonuit.com/Dashboard/dashboard/8339" target="_blank"
-                                style="color: #197A7B; text-decoration: none;"><strong>Multilingual Learners
-                                    Dashboard for OneSource Users</strong></a></li>
-                        <li><a href="https://superset.santacruzcoe.org/superset/dashboard/p/k30AKmgW62o/"
-                                target="_blank" style="color: #197A7B; text-decoration: none;"><strong>Multilingual
-                                    Learners Dashboard
-                                    for Non-OneSource Users</strong></a></li>
-                    </ul>
-
-                    <p class="text">If you don't have access to OneSource, you can learn more about it by clicking the
-                        button below:</p>
-                    <div style="text-align: center;">
-                        <a href="https://santacruzcoe.org/tech/educational-data/one-source/" class="btn"
-                            target="_blank">Learn About
-                            OneSource</a>
-                    </div>
-
-
-                    <div class="divider"></div>
-
-                    <!-- Additional Updates -->
-                    <h2 class="subheading">📌 Other Updates</h2>
-                    <ul class="feature-list text">
-                        <li><strong>CALPADS Network:</strong> We continue to support our LEAs through the <a
-                                href="https://santacruzcoe.org/tech/educational-data/calpads/" target="_blank"
-                                style="color: #197A7B; text-decoration: none;">CALPADS Network</a>.</li>
-
-                        <li><strong>Childcare Data Sharing App:</strong> In partnership with the Child Development
-                            Programs Department and Childcare Data Leadership Team, we have developed a data system
-                            and web application used by preschools and childcare facilities to request Student
-                            State IDs (SSIDs)
-                            for children. This data will be used to support data sharing from preschool to TK-12
-                            education.
-                        </li>
-
-                        <li><strong>CAC Student Information System:</strong> We are currently setting up a new Student
-                            Information System (SIS)
-                            implementation for our <a
-                                href="https://santacruzcoe.org/student-services/alternative-education-programs/career-advancement-charter/"
-                                target="_blank" style="color: #197A7B; text-decoration: none;">Career Advancement
-                                Charter (CAC)</a>.
-                        </li>
-
-                        <li><strong>CalKIDS:</strong> We have developed a Google add-on tool to batch check the
-                            eligibility of students
-                            for <a href="https://calkids.org/" target="_blank"
-                                style="color: #197A7B; text-decoration: none;">CalKIDS</a>. If
-                            you would like to check <a href="https://calkids.org/" target="_blank"
-                                style="color: #197A7B; text-decoration: none;">CalKIDS</a> eligibility for students in
-                            your district, please contact us.</li>
-
-                        <li><strong>Adult Learners Dashboard:</strong> We are partnering with WASCAE, Cabrillo and our
-                            CAC to develop a data system and visualization dashboard to support adult education
-                            providers in our county.</li>
-
-                        <li><strong>Student Performance Growth Tool:</strong> We have developed a student writing
-                            performance monitoring tool in collaboration with a lead teacher in San Lorenzo Valley
-                            Unified School District. This will help students track their own progress in writing to
-                            promote student agency.</li>
-                    </ul>
-                </td>
-            </tr>
-
-            <!-- Director's Message -->
-            <tr>
-                <td class="content" style="padding-top: 0;">
-                    <div class="divider"></div>
-                    <table width="100%">
                         <tr>
-                            <td width="120" valign="top" style="padding-right: 20px;">
+                            <td colspan="3" class="team-member" style="text-align: center;">
                                 <img src="https://lh3.googleusercontent.com/d/1zj-rpSYEk-jMvS_hGgL2_GH1oiMW0k34"
-                                    alt="Miguel Rocha"
-                                    style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 3px solid #e0e0e0;">
-                            </td>
-                            <td valign="top">
-                                <h3 class="subheading" style="margin-top: 0; margin-bottom: 10px;">Greetings from the
-                                    Director of Data Analytics and Development</h3>
-                                <p class="text" style="margin-bottom: 15px;">
-                                    "It's been a year full of accomplishments thanks to the great team that we were
-                                    lucky to
-                                    find. I am grateful to my team and the support from everyone at the Santa Cruz
-                                    COE. It is such a pleasure to work with such a warm and friendly community while at
-                                    the same time talented and hardworking. Together we continue to make strides towards
-                                    our goal of making data accessible and
-                                    actionable for our educational community in order to support the success of our
-                                    students.
-                                </p>
-
-                                <p class="text" style="margin-bottom: 15px;">
-                                    We are here to support you, please <a
-                                        href="https://santacruzcoe.org/tech/educational-data/" target="_blank"
-                                        style="color: #197A7B; text-decoration: none;">contact us</a> or send a data
-                                    product request by clicking on the button below."
-                                </p>
-                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd3xrMqL3ENKnDsTRmBeDyXTEhP1d_PipkiLgRcSmNjNllxwQ/viewform"
-                                    class="btn" target="_blank">Data Product Request</a>
-
-                                <p class="text" style="margin-bottom: 0;">
-                                    <strong>Miguel Rocha</strong>
-                                    <br>
-                                    <span style="font-size: 14px; color: #666;">Director of Data Analytics and
-                                        Development</span><br>
-                                    <a href="mailto:mrocha@santacruzcoe.org"
-                                        style="color: #197A7B; text-decoration: none;">mrocha@santacruzcoe.org</a>
-                                    <br>
-                                    <a href="https://santacruzcoe.org/"
-                                        style="color: #197A7B; text-decoration: none;">Santa Cruz COE</a> | <a
-                                        href="https://santacruzcoe.org/tech/"
-                                        style="color: #197A7B; text-decoration: none;">Tech+</a> | <a
-                                        href="https://santacruzcoe.org/tech/educational-data/"
-                                        style="color: #197A7B; text-decoration: none;">Data Analytics and
-                                        Development</a>
-                                </p>
+                                    alt="Miguel Rocha" class="team-img">
+                                <p class="team-name">Miguel Rocha</p>
+                                <p class="team-role">Director of Data Analytics and Development</p>
                             </td>
                         </tr>
                     </table>
-                </td>
-            </tr>
 
-            <!-- Footer -->
+                    <div style="text-align: center; margin-top: 20px;">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd3xrMqL3ENKnDsTRmBeDyXTEhP1d_PipkiLgRcSmNjNllxwQ/viewform"
+                            class="btn" target="_blank">Data Product Request</a>
+                    </div>
+
+                    <!-- Footer -->
             <tr>
                 <td class="footer">
                     <p style="margin: 0 0 10px 0;">Santa Cruz County Office of Education</p>
