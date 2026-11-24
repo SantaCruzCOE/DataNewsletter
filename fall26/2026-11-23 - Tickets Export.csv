@@ -1,0 +1,98 @@
+"Ticket","Priority","Status","Requested For","Assigned To","Issue","Issue Description","Requested By","Requested by Location","Requested by Role","Resolution Actions","Resolution Action Notes","Site","Tags","Data Service Type","Role","PROJECT DESCRIPTION","Job Title","Additional info, requests, notes, etc.","Brief Desciption","Department"
+"Data / EdTech / Creative Services > Data Team > Data Product or Service Request","100","Resolved","Lauren Fein","Miguel Rocha","Data Product or Service Request","I’m requesting review and approval to host a browser-based **Santa Cruz County Behavioral Health Resource Directory** that I’ve developed for staff to more easily find behavioral health and community resources.
+
+The directory brings together resources that are currently maintained across our Behavioral Health Resource Guide and organizes them into a searchable, user-friendly format. Users can browse and filter resources across areas such as behavioral health services, crisis and community supports, substance use services, social determinants of health, legal resources, parent/school resources, therapeutic tools, and other community supports.
+
+This tool **does not collect or contain PHI or student information.** It is intended strictly as a resource directory.
+
+The directory is a self-contained HTML file. The resource information and functionality are embedded directly into the file, and searching and filtering happen within the user's browser. Search terms are not transmitted or stored","Lauren Fein","Unassigned","Staff","10/06/2026 01:43 PM:  Miguel Rocha - Scheduled meeting","","","","Other","","","","","hosting of a behavioral health directory",""
+"Data / EdTech / Creative Services > Data Team > Data Product or Service Request","100","Resolved","Sama Tahir","Miguel Rocha","Data Product or Service Request","Hello! I have been working over the past few months to create a way to better process Low Incidence Requests for the North Santa Cruz County SELPA/North County. We provide and deploy devices as far as Ocean Grove Charter. 
+
+The way that the thing (software?? Tool??) works so far is this:
+
+Providers (Mostly SCCOE users, two SCCS Users) can use the web form to enter in the information for the request that they are making. The form includes all the fields from a paper form we have been using and refreshed last March. This information gets written into a spreadsheet for tracking. The tracking needs support!
+
+The information from the form then prepopulates a new filled out form with the information from the submission. Any file submitted during the process will be merged to create one file. 
+
+First, the provider gets a confirmation with the final merged package. Then selpastaff gets a copy to review and confirm. SELPA can reject or accept the request. If the request is denied, a notice is s","Sama Tahir","Unassigned","Staff","10/28/2026 01:55 PM:  Miguel Rocha - Other","Code reviewed","","","","","Low Incidence Workflow Tracking, see Issue","","","",""
+"Other Departments (Data) > Data Team > Other","100","Resolved","Erin Gong","Corey Bengisu","Data Product or Service Request","Hello team,
+Below are a couple of assets with the same vulnerabilities. 
+
+CVE-2026-33228
+CVE-2026-4800
+CVE-2026-25896
+CVE-2026-33896
+
+//cloudfunctions.googleapis.com/projects/promopal-ede8b/locations/us-west1/functions/getCalendarEventsV2
+//cloudfunctions.googleapis.com/projects/promopal-ede8b/locations/us-west1/functions/getEventsV2
+//cloudfunctions.googleapis.com/projects/promopal-ede8b/locations/us-west1/functions/getUserRoleV2
+//cloudfunctions.googleapis.com/projects/promopal-ede8b/locations/us-west1/functions/googleAuthCallback
+//cloudfunctions.googleapis.com/projects/promopal-ede8b/locations/us-west1/functions/healthCheck
+//cloudfunctions.googleapis.com/projects/promopal-ede8b/locations/us-west1/functions/initializeAdminUserV2
+//cloudfunctions.googleapis.com/projects/promopal-ede8b/locations/us-west1/functions/revokeUserTokensV2
+//cloudfunctions.googleapis.com/projects/promopal-ede8b/locations/us-west1/functions/storeGoogleTokensV2
+//cloudfunctions.googleapis.com/projects/promopa","Erin Gong","400 Encinal","Agent","10/27/2026 10:42 AM:  Miguel Rocha - Other","Updated packages for patched vulnerabilities","","","","","","","","Compute resource with reachable critical-severity vulnerabilities",""
+"Santa Cruz COE Departments > Data Team > Automation","100","Resolved","Lauren Fein","Tyler Lee","Automation","I have been working on my own automation and created a bot to help me manage some of my daily tasks. Adrian thought it would be best to have y'all review my scripts to ensure I'm FERPA/HIPAA compliant, etc. TIA!","Lauren Fein","Unassigned","Staff","10/19/2026 04:21 PM:  Tyler Lee - Resolved by DOE","","","","","","","","","Check out my new bot!",""
+"Other Deprartments (Data) > Data Team > App Development","100","Resolved","Sama Tahir","Tyler Lee","App Development","Re: Email to Tyler 06/03/2026
+Pivot tool
+Logic: takes 1 “DSEA name” or 2nd priority “LEAname” (user may be able to chose row, active row for pivot row?)
+Count unique by SSID
+Pivot detail out sheets by row for all items in pivot
+
+Advanced Logic:
+Create folder to hold this file. Detail sheets created as new spreadsheets within folder
+Sheets created on master folder offset horizontal down -3 to import range function to corresponding sheet
+Master sheet labeled such so that one person can monitor progress on all sheets within 1 but share all the rest with the corresponding individuals
+Add. Sheet for contact mail merge. Use mail merge to share sheets with appropriate email contacts. cc contacts","Sama Tahir","Unassigned","Staff","06/17/2026 10:08 AM:  Tyler Lee - Other","Sama will continue working on additional implementation steps and discuss with Jessica regarding deployment strategy. She will reach out if needed.","","","","","","","","in Issue^^",""
+"Data / EdTech / Creative Services > Data Team > Data Product or Service Request","100","Resolved","Jackie Buzel","Tyler Lee","Data Product or Service Request","I would like to import the calendar events from one of my google calendars into the COE ME calendar on the COE website.","Jackie Buzel","Unassigned","Staff","10/16/2026 10:01 AM:  Tyler Lee - Resolved by DOE","","","","Dataset","","","","","importing and exporting",""
+"Data / EdTech / Creative Services > Data Team > Data Product or Service Request","100","Resolved","Jennifer Izant Gonzales","Miguel Rocha","Data Product or Service Request","Alt Ed Chronic Absenteeism tracking sheet","Jennifer Izant Gonzales","Unassigned","Staff","10/07/2026 02:13 PM:  Miguel Rocha - Scheduled meeting","","","","Data Analysis","","","","","Tracking sheet",""
+"Data / EdTech / Creative Services > Data Team > Data Product or Service Request","100","Resolved","Lauren Fein","Miguel Rocha","Data Product or Service Request","I’m requesting a security and privacy review of a browser-based tool I’ve been developing called the **SCCS Youth Substance Use Screener (v0.9.1 beta)**. It is designed for Santa Cruz City Schools mental health staff and counselors to complete a substance use screener with a student and receive decision-support guidance for school-based interventions and/or referrals to outside providers.
+
+The tool is a single, self-contained HTML file with no server, database, login, cookies, or browser storage. All of the code is embedded within the file, so it does not make outside network requests while it is running, and nothing entered into the tool is saved when the browser tab is closed.
+
+The tool **will contain PHI**, including student name, grade and school, parent/caregiver contact information, substance use history, CRAFFT screening responses, mental health and safety concerns, and referral decisions.
+
+Information only leaves the tool when the user chooses to take a specific action: downloa","Lauren Fein","Unassigned","Staff","10/06/2026 01:42 PM:  Miguel Rocha - Scheduled meeting","","","","App Development","","","","","SCCS Youth Substance Use Screener",""
+"Data / EdTech / Creative Services > Data Team > Data Product or Service Request","100","Resolved","Susan McWilliams","Sergio Ybarra","Data Product or Service Request","My PowerTeacher account says Santa Cruz High rather than COE. I think this is related to signing in using Duo since it just happened after signing in with Duo for the first time. However, let me know if this is not the case and I can reach out to Danica.","Susan McWilliams","Unassigned","Staff","10/02/2026 03:48 PM:  Sergio Ybarra - Other","Sent comment that DUO is not going to change PowerSchool.","","","","","","","","",""
+"Data / EdTech / Creative Services > Data Team > Data Product or Service Request","100","Resolved","Ana Melissa","Tyler Lee","Data Product or Service Request","I data team! I just received a question from a staff member at Highlands Alt Ed: Gail Atlansky. She was asking for us to unlock this vibe coded app: https://sccoe-notewriter.netlify.app/ 
+
+I wanted to check in with you since I believe these things we want hosted by us. Do you know who created this app?","Ana Melissa","400 Encinal","Agent","09/08/2026 11:52 AM:  Tyler Lee - Resolved by DOE","","","","App Development","","","","","netlify.app",""
+"Data / EdTech / Creative Services > Data Team > Data Product or Service Request","100","Resolved","Jessica Gonzalez Martinez","Tyler Lee","Data Product or Service Request","my pc will only open CSV files through the word app and I do not have the option on selecting excel to open my CSV files.
+Thanks,
+jessica","Jessica Gonzalez Martinez","Unassigned","Staff","08/25/2026 10:54 AM:  Tyler Lee - Resolved by DOE","Fixed by renaming file extension from '.text' to '.csv'","","","Other","","","","","App",""
+"Other Departments (Data) > Data Team > Automation","100","Resolved","Jeremiah Podczaszy","Liliana Chavez","Automation","I would like some assistance in using this form so based the answer when the student registration form is responded with. The assistance is needed in when the person answers for the interested class it goes onto another spreadsheet. I would still like to keep a master sheet as well. 
+
+Please see the link for the following form here - https://docs.google.com/forms/d/1uCySyIXDxRR5FRXEuD8jkBBrN2Ta4v_m5EaOdytagMI/edit?urp=gmail_link","Jeremiah Podczaszy","Unassigned","Staff","08/13/2026 08:17 AM:  Liliana Chavez - Approved request","","","","","","","","","",""
+"Other Departments (Data) > Data Team > Other","100","Resolved","Erin Gong","Miguel Rocha","Data Product or Service Request","Compute with no Crowdstrike sensor has administrator privileges 
+1. //compute.googleapis.com/projects/data-portal-e1538/zones/us-west1-a/instances/gke-cluster-2-superset-pool-51d42e67-ew6x
+2. //compute.googleapis.com/projects/data-portal-e1538/zones/us-west1-a/instances/gke-cluster-2-trino-coordinator-pool-4b6862bc-8ifr
+3. //compute.googleapis.com/projects/data-portal-e1538/zones/us-west1-a/instances/gke-cluster-2-superset-pool-51d42e67-4ndy
+4. //compute.googleapis.com/projects/data-portal-e1538/zones/us-west1-a/instances/gke-cluster-2-trino-worker-pool-b463a7a2-rfh2","Erin Gong","400 Encinal","Agent","08/12/2026 02:45 PM:  Miguel Rocha - Other","Resolved by removing excess permissions on the project's service accounts.","","","","","","","","Compute with no Crowdstrike sensor has administrator privileges",""
+"Other Departments (Data) > Data Team > Other","100","Resolved","Erin Gong","Corey Bengisu","Data Product or Service Request","//cloudfunctions.googleapis.com/projects/promopal-ede8b/locations/us-west1/functions/testGeminiV2
+
+CVE-2026-41242
+CVE-2026-33228
+CVE-2026-4800
+CVE-2026-25896
+CVE-2026-33896","Erin Gong","400 Encinal","Agent","08/12/2026 02:41 PM:  Miguel Rocha - Other","Resolved by updating packages and deleting unused endpoint","","","","","","","","Compute resource with reachable critical-severity vulnerabilities is publicly exposed to the internet",""
+"Other Departments (Data) > Data Team > Other","100","Resolved","Brenda Barroso","Miguel Rocha","Data Product or Service Request","Unable to load Filemaker database for NTP.
+I have installed Filemaker app to desktop. Signed in with SVC admin username, app itself shows that I am a part of Santa Cruz CoE group but no access to database is given.
+My first task in my new role is to input enrollment forms into this database. Getting your earliest attention on this issue would be much appreciated.","Brenda Barroso","Unassigned","Staff","07/13/2026 02:40 PM:  Miguel Rocha - Other","Added user to the NTP Viewers group  under https://console.claris.com/app/groups","","","","","","","","Unable to upload into database on Filemaker.",""
+"Other Deprartments (Data) > Data Team > Data Visualization","100","Canceled","Jason Borgen","","Data Visualization","test please ignore","Jason Borgen","400 Encinal","iiQ Administrator","","","","","","","","","","test",""
+"Data / EdTech / Creative Services > Data Team > Data Product or Service Request","100","In Progress","Sama Tahir","Tyler Lee","Data Product or Service Request","Users in Soquel Union and Sonoma county have expressed that the Excel version of the Check16.14 Tool is running into Runtime errors. I have triple checked the file, but have not been able to recreate a runtime error... I'm wondering if the recent Microsoft updates/changes have fixed the issue... Or maybe I'm just running an obsolete version of the application?
+
+I'm still having to unblock the macros for the file within its properties to activate the macros.
+
+File in Drive: https://drive.google.com/file/d/1rRehFVFm7MEFdvVhSs6p7loh3rWyi-Pc/view?usp=sharing","Sama Tahir","Unassigned","Staff","10/28/2026 01:57 PM:  Miguel Rocha - Other","Fixed or unable to reproduced after updates","","","Automation, Data Analysis","","","","","SELPA Excel Check16.14 Report",""
+"Data / EdTech / Creative Services > Data Team > Data Product or Service Request","100","In Progress","Scott Mean-Hill","Tyler Lee","Data Product or Service Request","Hi,
+We have updated our Certificated Evaluation tools. When we rolled out the process to managers, they asked whether we could create individual folders for each staff member being evaluated so that each document from the evaluation cycle would be placed in their folder.  They also asked if there was a tracking system that could be created so that each manager can see where in the process each staff member is.
+
+Thanks,
+Scott","Scott Mean-Hill","Unassigned","Staff","","","","","Automation","","","","","Certificated Evaluation Process",""
+"Data / EdTech / Creative Services > Data Team > Data Product or Service Request","100","In Progress","Emilia Mavrolas","Olesya Kalinowska","Data Product or Service Request","Not sure if this is the correct place to request, but I need access to PowerSchool. I am currently the Counselor Intern at the Career Advancement Charter and CALS program.","Emilia Mavrolas","Unassigned","Staff","","","","","","","","","","",""
+"Data / EdTech / Creative Services > Data Team > Data Product or Service Request","100","Waiting on Requestor","Laura Macondray","Miguel Rocha","Data Product or Service Request","Hi, can you install https://evolve.elsevier.com/cs/store?role=faculty on MA Canvas class? 
+For Belinda Garcia.","Laura Macondray","Unassigned","Staff","","","","","","","","","","",""
+"Data / EdTech / Creative Services > Data Team > Data Product or Service Request","100","In Progress","Kristen Erickson","Miguel Rocha","Data Product or Service Request","Hi. I am the Educational Coach for Alt Ed, and I help get quotes for the curriculum teacher requests.  At the end of each semester, I send out an order form for various annual curriculum needs.  I would love some help designing my order forms so that the data collected matches the exact format required by each vendor. My goal is to eliminate the manual step of exporting, reformatting, and recreating new documents just to request a quote or to minimize my extra labor as much as possible.","Kristen Erickson","Unassigned","Staff","11/12/2026 01:36 PM:  Miguel Rocha - Other","Initial meeting and evaluation","","","Other","","","","","See above",""
+"Data / EdTech / Creative Services > Data Team > Data Product or Service Request","100","In Progress","Denise Pitman-Rosas","Miguel Rocha","Data Product or Service Request","I would like to set up a meeting with Data Team to discuss CalKIDS eligibility.","Denise Pitman-Rosas","Unassigned","Staff","09/24/2026 01:19 PM:  Miguel Rocha - Other","Meeting scheduled","","","Data Analysis","","","","","CalKIDS SSID list",""
+"Data / EdTech / Creative Services > Data Team > Data Product or Service Request","100","In Progress","Jennifer Izant Gonzales","Miguel Rocha","Data Product or Service Request","Countywide Expulsion Student Tracking:
+This will be a confidential countywide student tracking sheet with tabs for each district and data analysis needed as well.","Jennifer Izant Gonzales","Unassigned","Staff","10/07/2026 02:14 PM:  Miguel Rocha - Scheduled meeting","","","","Data Analysis","","","","","countywide student tracking sheet",""

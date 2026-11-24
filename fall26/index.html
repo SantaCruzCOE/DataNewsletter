@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCCOE Analytics Fall 2026 Update</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            font-family: 'Barlow Semi Condensed', Arial, sans-serif;
+            color: #212529;
+        }
+
+        table {
+            border-spacing: 0;
+            width: 100%;
+        }
+
+        td {
+            padding: 0;
+        }
+
+        img {
+            border: 0;
+        }
+
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            background-color: #f4f4f4;
+            padding-bottom: 40px;
+        }
+
+        .main {
+            background-color: #ffffff;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+            border-spacing: 0;
+            font-family: 'Barlow Semi Condensed', Arial, sans-serif;
+            color: #212529;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            background-color: #1a1a2e;
+            background: linear-gradient(135deg, #1a1a2e 0%, #197A7B 100%);
+            padding: 20px 20px;
+        }
+
+        .logo {
+            max-width: 100px;
+            height: auto;
+            display: block;
+        }
+
+        .header-title {
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+            line-height: 1.2;
+            padding-left: 20px;
+        }
+
+        .content {
+            padding: 40px 30px;
+        }
+
+        .heading {
+            font-size: 28px;
+            font-weight: 700;
+            color: #197A7B;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .subheading {
+            font-size: 20px;
+            font-weight: 600;
+            color: #212529;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        .text {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #4a4a4a;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #197A7B;
+            color: #ffffff !important;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background-color: #136061;
+        }
+
+        .footer {
+            background-color: #212529;
+            color: #ffffff;
+            padding: 30px 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .footer a {
+            color: #197A7B;
+            text-decoration: none;
+        }
+
+        .divider {
+            height: 1px;
+            background-color: #e0e0e0;
+            margin: 30px 0;
+        }
+
+        .feature-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .feature-list>li {
+            padding-left: 20px;
+            position: relative;
+            margin-bottom: 12px;
+            line-height: 1.6;
+            font-size: 16px;
+            color: #4a4a4a;
+        }
+
+        .feature-list>li:before {
+            content: "•";
+            color: #197A7B;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .nested-list {
+            list-style-type: none;
+            padding-left: 5px;
+            margin: 8px 0;
+        }
+
+        .nested-list li {
+            padding-left: 18px;
+            position: relative;
+            margin-bottom: 6px;
+            font-size: 15px;
+            line-height: 1.5;
+            color: #4a4a4a;
+        }
+
+        .nested-list li:before {
+            content: "–";
+            color: #197A7B;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .team-member {
+            text-align: center;
+            padding: 10px;
+            vertical-align: top;
+        }
+
+        .team-img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-bottom: 10px;
+            background-color: #e0e0e0;
+        }
+
+        .team-name {
+            font-weight: 600;
+            margin: 5px 0;
+            font-size: 16px;
+        }
+
+        .team-role {
+            font-size: 14px;
+            color: #666;
+            margin: 0;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+
+<body>
+    <center class="wrapper">
+        <table class="main">
+            <!-- Header -->
+            <tr>
+                <td class="header">
+                    <table width="100%">
+                        <tr>
+                            <td align="left" valign="middle">
+                                <a href="https://santacruzcoe.org/" target="_blank">
+                                    <img src="https://lh3.googleusercontent.com/d/1tabBWS9XFnBOlms8Eg2vXlXl1yEY8f8d"
+                                        alt="SCCOE Logo" class="logo">
+                                </a>
+                            </td>
+                            <td align="right" valign="middle" class="header-title">
+                                Quarterly Update: Data Analytics and Development Department
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Content -->
+            <tr>
+                <td class="content">
+                    <!-- Tech+ Logo with Date -->
+                    <table width="100%" style="margin-bottom: 20px; border-collapse: collapse;">
+                        <tr>
+                            <td align="left" valign="middle">
+                                <a href="https://santacruzcoe.org/tech/" target="_blank">
+                                    <img src="https://lh3.googleusercontent.com/d/1sz4zCmiVekbxmPur0SvpJ8utbV80HPUk"
+                                        alt="Tech+ Logo" class="logo"
+                                        style="width: 200px; max-width: 100%; height: auto; display: block;">
+                                </a>
+                            </td>
+                            <td align="right" valign="middle"
+                                style="font-size: 20px; font-weight: 700; color: #197A7B; font-family: 'Barlow Semi Condensed', Arial, sans-serif; letter-spacing: 0.5px;">
+                                11/23/26
+                            </td>
+                        </tr>
+                    </table>
+
+                    <p class="text">
+                        Dear Santa Cruz COE Community,
+                        <br><br>
+                        We are pleased to share our Fall 2026 quarterly update from the Data Analytics and Development
+                        team.
+                        <br><br>
+                        Through the summer and fall months, our team has been dedicated to advancing our integrated data
+                        system, implementing new administrative automations, and supporting the COE departments and
+                        Santa
+                        Cruz County districts with their data and app development needs. Below are key highlights of the
+                        progress achieved this fall.
+                        <br><br>
+                        For more details, please visit the <a href="https://dataportal.santacruzcoe.org/"
+                            target="_blank" style="color: #197A7B; text-decoration: none;">Data Portal</a> and <a
+                            href="https://santacruzcoe.org/tech/educational-data/" target="_blank"
+                            style="color: #197A7B; text-decoration: none;">Educational Data</a> page on the Santa Cruz
+                        COE website.
+                    </p>
+
+                    <div class="divider"></div>
+
+                    <!-- Section 1: Data Portal Visualization Updates -->
+                    <h2 class="subheading">📊 Data Portal Updates</h2>
+                    <h3>State data updates and new Reclassified Fluent English Proficient (RFEP) dashboard</h3>
+                    <p class="text">
+                        Fall is a time of multiple new data releases by the California Department of Education (CDE). We
+                        have updated the <a href="https://dataportal.santacruzcoe.org/" target="_blank"
+                            style="color: #197A7B; text-decoration: none;">Santa Cruz COE Data
+                            Portal</a> to provide up-to-date information for county educators and the public:
+                    </p>
+                    <ul class="feature-list">
+                        <li>
+                            <strong>Updated State Assessment Visualizations:</strong> Integrated the latest annual data
+                            for <a href="https://dataportal.santacruzcoe.org/?tags=Recently+Updated&viz=SCCAASPPDash"
+                                target="_blank"
+                                style="color: #197A7B; text-decoration: none;"><strong>CAASPP</strong></a>
+                            and <a
+                                href="https://dataportal.santacruzcoe.org/?tags=Recently+Updated&viz=SCCAASPPDistrictSchoolGrade"
+                                target="_blank" style="color: #197A7B; text-decoration: none;"><strong>CAST</strong></a>
+                            data visualizations. We are also working on a new set of visualizations that will include
+                            <strong>ELPAC</strong> results and should be available in the coming weeks.
+                        </li>
+                        <li>
+                            <strong>Other updated visualizations:</strong>
+                            <ul class="nested-list">
+                                <li><a href="https://dataportal.santacruzcoe.org/?tags=Recently+Updated&viz=ABSENTEEISM"
+                                        target="_blank" style="color: #197A7B; text-decoration: none;"><strong>Chronic
+                                            Absenteeism Rates (2017–2026)</strong></a></li>
+                                <li><a href="https://dataportal.santacruzcoe.org/?tags=Recently+Updated&viz=SUSPENSION"
+                                        target="_blank"
+                                        style="color: #197A7B; text-decoration: none;"><strong>Suspension Rates
+                                            (2015–2026)</strong></a></li>
+                                <li><a href="https://dataportal.santacruzcoe.org/?tags=Recently+Updated&viz=EXPULSION"
+                                        target="_blank" style="color: #197A7B; text-decoration: none;"><strong>Expulsion
+                                            Rates (2012–2026)</strong></a></li>
+                                <li><a href="https://dataportal.santacruzcoe.org/?tags=Recently+Updated&viz=HSGRADRATES"
+                                        target="_blank" style="color: #197A7B; text-decoration: none;"><strong>4-Year
+                                            Cohort High School Graduation Rates (2017–2026)</strong></a></li>
+                                <li><a href="https://dataportal.santacruzcoe.org/?tags=Recently+Updated&viz=CUMENROLL"
+                                        target="_blank"
+                                        style="color: #197A7B; text-decoration: none;"><strong>Cumulative Enrollment by
+                                            District & Student Groups (2017–2026)</strong></a></li>
+                                <li><a href="https://dataportal.santacruzcoe.org/?tags=Recently+Updated&viz=ELPI"
+                                        target="_blank" style="color: #197A7B; text-decoration: none;"><strong>English
+                                            Learner Progress Indicator (ELPI) Current Status (2019–2026)</strong></a>
+                                </li>
+                                <li><a href="https://dataportal.santacruzcoe.org/?tags=Recently+Updated&viz=AMO"
+                                        target="_blank" style="color: #197A7B; text-decoration: none;"><strong>Teaching
+                                            Assignment Monitoring Outcomes (AMO) Report</strong></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="https://dataportal.santacruzcoe.org/?tags=Recently+Updated&viz=RFEP"
+                                target="_blank" style="color: #197A7B; text-decoration: none;"><strong>New RFEP
+                                    Reclassification Dashboard:</strong></a> Added an in-depth dashboard tracking
+                            Reclassified Fluent English Proficient (RFEP) student progress across districts, showcasing
+                            longitudinal reclassification trends, counts, and language acquisition milestones.
+                        </li>
+                    </ul>
+
+                    <div style="text-align: center; margin-top: 20px;">
+                        <a href="https://dataportal.santacruzcoe.org/" class="btn" target="_blank">Visit the Data
+                            Portal</a>
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <!-- Section 2: Schoolytics Pilot -->
+                    <div
+                        style="display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 12px;">
+                        <a href="https://santacruzcoe.org/tech/educational-data/one-source/" target="_blank"
+                            style="display: inline-flex; align-items: center;"><img src="onesource-tagline.jpg"
+                                alt="OneSource" style="height: 32px; width: auto;"></a>
+                        <span
+                            style="display: inline-block; width: 1px; height: 28px; background-color: #d1d5db;"></span>
+                        <a href="https://www.schoolytics.com/" target="_blank"
+                            style="display: inline-flex; align-items: center;"><img
+                                src="schoolytics_logo_w_text_2024_web.svg" alt="Schoolytics"
+                                style="height: 32px; width: auto;"></a>
+                    </div>
+                    <h2 class="subheading"><a href="https://www.schoolytics.com/" target="_blank"
+                            style="color: inherit; text-decoration: none;">Schoolytics</a> Pilot for <a
+                            href="https://santacruzcoe.org/tech/educational-data/one-source/" target="_blank"
+                            style="color: inherit; text-decoration: none;">OneSource</a></h2>
+                    <h3>Empowering educators with an intuitive, role-based integrated analytics platform</h3>
+                    <p class="text">
+                        This fall, the Data Analytics team kicked off a pilot of <a href="https://www.schoolytics.com/"
+                            target="_blank"
+                            style="color: #197A7B; text-decoration: none;"><strong>Schoolytics</strong></a> with
+                        participating school districts across Santa Cruz County. The pilot aims to evaluate a new
+                        analytics platform
+                        for our integrated analytics initiative, <a
+                            href="https://santacruzcoe.org/tech/educational-data/one-source/" target="_blank"
+                            style="color: #197A7B; text-decoration: none;"><strong>OneSource</strong></a>.
+                    </p>
+                    <ul class="feature-list">
+                        <li>
+                            <strong>Role-Based User Experiences:</strong> Developing specialized dashboard views
+                            tailored to distinct roles—giving classroom teachers quick access to formative indicators,
+                            while equipping counselors and administrators with whole-student views.
+                        </li>
+                        <li>
+                            <strong>Collaborative Evaluation:</strong> Hosting structured feedback sessions with
+                            district stakeholders to establish key evaluation criteria, refine visual reporting, and
+                            ensure the platform directly addresses educators' highest-priority data questions.
+                        </li>
+                    </ul>
+                    <p class="text">The pilot is currently underway, with comprehensive feedback collection planned for
+                        the remainder
+                        of the fall semester. Findings from the pilot will inform whether we switch to <a
+                            href="https://www.schoolytics.com/" target="_blank"
+                            style="color: #197A7B; text-decoration: none;"><strong>Schoolytics</strong></a> as our
+                        analytics
+                        platform supporting <a href="https://santacruzcoe.org/tech/educational-data/one-source/"
+                            target="_blank"
+                            style="color: #197A7B; text-decoration: none;"><strong>OneSource</strong></a>. If approved,
+                        we will begin the full implementation at the beginning of the 2026-27 school year.
+                    </p>
+
+                    <div class="divider"></div>
+
+                    <!-- Section 3: PowerSchool Automations -->
+                    <h2 class="subheading">⚙️ PowerSchool Automations</h2>
+                    <h3>Streamlined Google account provisioning and SIS workflows</h3>
+                    <p class="text">
+                        Automating repetitive administrative tasks within our Student Information Systems (SIS) remains
+                        a top priority. Over the fall, we rolled out several high-impact automations:
+                    </p>
+                    <ul class="feature-list">
+                        <li>
+                            <strong>Automated Student Google Account Creation:</strong> Launched a new
+                            Google account provisioning application tool (<a
+                                href="https://studentaccounts.santacruzcoe.org" target="_blank"
+                                style="color: #197A7B; text-decoration: none;">studentaccounts.santacruzcoe.org</a>).
+                            The system automatically creates Google Workspace accounts for incoming students in
+                            Alternative Education and Special Education programs based on the enrollment records in
+                            their PowerSchool SIS.
+                            It also provides a management tool for daily student account maintenance workflows and
+                            two-way syncing between PowerSchool and the Google Admin Console.
+                        </li>
+                        <li>
+                            <strong>District-of-Residence (DOR) Automation:</strong> Built an automated address
+                            verification and district boundary lookup tool utilizing mapping APIs, streamlining
+                            residency determination and eliminating manual address validation during enrollment.
+                        </li>
+                        <li>
+                            <strong>PowerSchool SIS Automations:</strong> Continued developing our PowerSchool
+                            companion tools and custom plugins to automate attendance tracking synchronization, status
+                            code updates, and streamlined data handoffs.
+                        </li>
+                    </ul>
+
+                    <div class="divider"></div>
+
+                    <!-- Section 4: CAC and AltEd Support -->
+                    <h2 class="subheading">🏫 CAC and Alternative Education Support</h2>
+                    <h3>Modernizing student onboarding, attendance, and compliance workflows</h3>
+                    <p class="text">
+                        We deepened our operational partnership with the <strong>Career Advancement Charter
+                            (CAC)</strong> and COE <strong>Alternative Education</strong> programs to enhance data
+                        workflows and reporting accuracy:
+                    </p>
+                    <ul class="feature-list">
+                        <li>
+                            <strong>CAC Digital Intake & Onboarding:</strong> Designed and deployed end-to-end
+                            registration workflows that automatically route student intake responses directly into
+                            centralized tracking systems, including timestamped contract tracking and teacher
+                            orientation guides.
+                        </li>
+                        <li>
+                            <strong>AltEd Attendance & Health Support:</strong> Enhanced monitoring and reporting tools
+                            for student attendance, chronic absenteeism, and student health records—including assisting
+                            school nursing staff with automated immunization compliance reporting directly from the SIS.
+                        </li>
+                        <li>
+                            <strong>SIS Transition Planning:</strong> Began initial transition planning for updated
+                            PowerSchool configurations across Alternative Education and Special Education to improve
+                            student data privacy and system usability.
+                        </li>
+                    </ul>
+
+                    <div class="divider"></div>
+
+                    <!-- Section 5: Support to Other Departments and Districts -->
+                    <h2 class="subheading">🤝 Support to Departments and School Districts</h2>
+                    <h3>Collaborative solutions across Santa Cruz County educational programs</h3>
+                    <p class="text">
+                        Beyond core analytics, our team provided specialized technical and data support to multiple
+                        departments, schools, and partner agencies:
+                    </p>
+                    <ul class="feature-list">
+                        <li>
+                            <strong>Santa Cruz City Schools (SCCS):</strong> Supported the onboarding of SCCS into <a
+                                href="https://santacruzcoe.org/tech/educational-data/one-source/" target="_blank"
+                                style="color: #197A7B; text-decoration: none;"><strong>OneSource</strong></a>,
+                            including user training, data connections, and data validation.
+                        </li>
+                        <li>
+                            <strong>Live Oak School District:</strong> Built custom interactive dashboards and
+                            drill-down visualization reports in Looker Studio to support district leadership in
+                            monitoring key student progress indicators.
+                        </li>
+                        <li>
+                            <strong>Special Education (SPED):</strong> Enhanced student health page mappings, supported
+                            specialized enrollment requests, and assisted with annual state reporting preparation.
+                        </li>
+                        <li>
+                            <strong>Early Childhood Programs:</strong> Supported Hubbe data system implementations
+                            across regional early education partners (including YMCA, Bridges to Kinder, and Coastal
+                            Community) and assisted with parent survey analysis for the Early Childcare Program.
+                        </li>
+                        <li>
+                            <strong>Curriculum & Instruction:</strong> Delivered feature enhancements to the COE Events
+                            Management Tool and automated Google Group synchronization to streamline professional
+                            development coordination.
+                        </li>
+                        <li>
+                            <strong>Human Resources & Departmental Automations:</strong> Developed automated folder
+                            creation and progress tracking systems for the Certificated Employee Evaluation cycle, and
+                            streamlined vendor order form workflows for Alt Ed curriculum procurement.
+                        </li>
+                        <li>
+                            <strong>North Santa Cruz County SELPA:</strong> Supported the automation of the Low
+                            Incidence equipment request
+                            workflow, converting web intake into auto-merged documentation packages with approval
+                            routing, and provided other technical support and maintenance for SELPA reporting tools.
+                        </li>
+                        <li>
+                            <strong>CalKIDS Verification for Multiple Districts:</strong> Supported multiple districts
+                            with the verification of student
+                            eligibility for CalKIDS through the development, maintenance, and user support of a tool
+                            that automates CalKIDS verifications based on the districts' provided lists of State Student
+                            IDs. The goal is to ensure students across Santa Cruz County access their California Kids
+                            Investment and Development Savings accounts.
+                        </li>
+                        <li>
+                            <strong>COE-Wide Strategic AI Leadership Team:</strong> Participated in the development of
+                            AI
+                            policies and guidelines for the county office of education. Also created a <a
+                                href="https://superset.santacruzcoe.org/superset/dashboard/p/BEeWkD8GQXk/"
+                                target="_blank" style="color: #197A7B; text-decoration: none;">dashboard</a> to aid
+                            in analyzing the Santa Cruz COE AI staff survey regarding AI adoption and perception.
+                        </li>
+                        <li>
+                            <strong>Vibe Coding Support for Multiple Departments:</strong> Conducted data
+                            privacy and security
+                            reviews for vibe-coded apps, including the countywide Behavioral Health
+                            Resource Directory, the SCCS Youth Substance Use Screener, and an automated document
+                            redaction tool developed by the Superintendent's department to comply with the California
+                            Privacy Rights Act (CPRA).
+                        </li>
+                    </ul>
+
+                    <div class="divider"></div>
+
+                    <!-- Team Section -->
+                    <h2 class="subheading">The Data Analytics and Development Team is here to support you!</h2>
+                    <p class="text" style="margin-bottom: 15px;">
+                        Please <a href="https://santacruzcoe.org/tech/educational-data/" target="_blank"
+                            style="color: #197A7B; text-decoration: none;">reach out to our team</a> or submit a data
+                        support ticket using the link below:
+                    </p>
+
+                    <table width="100%">
+                        <tr>
+                            <td width="33%" class="team-member">
+                                <img src="https://lh3.googleusercontent.com/d/13Ol9d61SSFid6OI-Aa2QlRN3fSczqWfN"
+                                    alt="Olesya Kalinowska" class="team-img">
+                                <p class="team-name">Olesya Kalinowska</p>
+                                <p class="team-role">CALPADS & SIS Coordinator</p>
+                            </td>
+                            <td width="33%" class="team-member">
+                                <img src="https://lh3.googleusercontent.com/d/1IeYJgZzDjvnyr-2tYE1BPmLR0BUAoafF"
+                                    alt="Corey Bengisu" class="team-img">
+                                <p class="team-name">Corey Bengisu</p>
+                                <p class="team-role">Software Engineer</p>
+                            </td>
+                            <td width="33%" class="team-member">
+                                <img src="https://lh3.googleusercontent.com/d/1x65-TXYba9GQ0FfUTqgYp63wYwABM6NM"
+                                    alt="Tyler Lee" class="team-img">
+                                <p class="team-name">Tyler Lee</p>
+                                <p class="team-role">Data Engineer</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" class="team-member" style="text-align: center;">
+                                <img src="https://lh3.googleusercontent.com/d/1zj-rpSYEk-jMvS_hGgL2_GH1oiMW0k34"
+                                    alt="Miguel Rocha" class="team-img">
+                                <p class="team-name">Miguel Rocha</p>
+                                <p class="team-role">Director of Data Analytics and Development</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <div style="text-align: center; margin-top: 20px;">
+                        <a href="https://santacruzcoe.incidentiq.com/guest/RRWVCZKJ/data-team" class="btn"
+                            target="_blank">Data Support Ticket</a>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Footer -->
+            <tr>
+                <td class="footer">
+                    <p style="margin: 0 0 10px 0;">Santa Cruz County Office of Education</p>
+                    <p style="margin: 0 0 10px 0;">400 Encinal Street, Santa Cruz, CA 95060</p>
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+
+</html>
